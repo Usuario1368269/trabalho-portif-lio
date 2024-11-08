@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(25, 70, 175);
+    color: azure;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(161, 150, 150);
     }
 .container-1{
     display: flex;
@@ -36,7 +37,6 @@ header{
     h1, a{
         width: 100%;
         text-align: center;
-        color: black;
         text-decoration: none;
     }
     h5{
@@ -44,25 +44,27 @@ header{
     }
     p{
         text-align: justify;
+        font-size: 25px;
     }
     #p2{
-        margin-left: 850px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1500px;
     }
     .cards{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 100px;
     }
     .container-2 p{
     display:flex;
-    width: 800px;
-    margin-left: 600px;
+    justify-content: space-evenly;    
     }
     .techn{
         display: flex;
+        justify-content: space-evenly;
         width: 100%;
-        margin-top: 75px;
-        margin-left: 850px;
     }
     h1{
         font-size: 50px;
@@ -78,7 +80,7 @@ header{
     .alingn{
         display: flex;
         flex-direction: column;
-        width:500px;
+        width:900px;
         margin-left: 20vw;
     }
     .card{
@@ -87,22 +89,28 @@ header{
         flex-direction: column;
     }
     .footer{
-        width: 100%;
-        padding: 90px;
         display: flex;
-    }
-    .block{
-        margin-left: 1400px;
+        align-items: center;
+        justify-content: end;
     }
     footer{
-        justify-content: flex-end;
+        background-color: rgb(255, 255, 255);
         margin-top: 100px;
-
+        height: 30px;
+        padding: 50px;
+    }
+    .block{
+        display: flex;
+        flex-direction: row;
     }
     footer img{
         width: 25px;
         height:25px;
     }
     .caixa{
-        display: block;
+        margin-right: 900px;
+    }
+    h5{
+        color: black;
+        font-size: 20px;
     }
